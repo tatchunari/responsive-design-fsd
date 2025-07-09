@@ -168,3 +168,24 @@ h3 {
 }
 
 /* Start coding here */
+@media screen and (min-width: 320px) and (max-width: 480px) {
+  .categories {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .topic {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .row-1,
+  .row-2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+}
