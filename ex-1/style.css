@@ -171,7 +171,39 @@ h3 {
 @media only screen and (max-width: 600px) {
   .job-item,
   .job-more {
+    
     width: 100%;
     height: 100%;
+  }
+}
+
+@media only screen and (max-width: 600px) and (orientation: portrait) {
+  /* ตัวอย่างการปรับแต่ง */
+  .job-item,
+  .job-more {
+    width: 100vw;
+    height: auto;
+    margin: 10px 0;
+    padding: 16px;
+  }
+
+  .categories {
+    min-width: unset;
+    width: 100vw;
+    height: auto;
+  }
+
+  .row-1,
+  .row-2 {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  h2, h3, h4 {
+    position: static;
+    text-align: center;
+    margin: 8px 0;
+    left: unset;
+    top: unset;
   }
 }
