@@ -167,4 +167,11 @@ h3 {
   left: 0px;
 }
 
-/* Start coding here */
+
+@media only screen and (max-width: 600px) {
+  .job-item,
+  .job-more {
+    width: 100%;
+    height: 100%;
+  }
+}
